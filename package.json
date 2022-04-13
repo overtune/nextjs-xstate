@@ -1,20 +1,26 @@
 {
-  "name": "nextjs-xstate",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
-  },
-  "devDependencies": {
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5"
-  }
+	"name": "nextjs-xstate",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@xstate/inspect": "^0.4.1",
+		"@xstate/react": "^1.6.2",
+
+		"next": "^11.0.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"xstate": "^4.26.0"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.34",
+		"@types/react-dom": "^17.0.11",
+		"eslint": "^7.32.0",
+		"typescript": "^4.4.4"
+	}
 }
